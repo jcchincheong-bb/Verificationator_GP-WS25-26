@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "gp-components")(type "KiCad")(uri "${KIPRJMOD}/part-library/gp-components.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX6126A30+T")(type "KiCad")(uri "${KIPRJMOD}/part-library/MAX6126/MAX6126A30+T.kicad_sym")(options "")(descr ""))
+)
