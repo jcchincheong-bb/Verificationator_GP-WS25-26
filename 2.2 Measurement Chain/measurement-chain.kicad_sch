@@ -3116,6 +3116,12 @@
 		(uuid "df7d43dc-e052-4b24-8f3f-64372d369a08")
 	)
 	(junction
+		(at 189.23 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaf2bf8c-a103-4f8b-9dca-29cb4525e695")
+	)
+	(junction
 		(at 40.64 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3807,6 +3813,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 106.68) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7121a5-9082-41fb-aff8-f35504e74b24")
+	)
+	(wire
+		(pts
 			(xy 106.68 38.1) (xy 106.68 41.91)
 		)
 		(stroke
@@ -3817,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 106.68) (xy 199.39 106.68)
+			(xy 179.07 106.68) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4248,7 +4264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 106.68 110.49 0)
 			(effects
 				(font
@@ -4518,7 +4534,7 @@
 				)
 			)
 		)
-		(property "Value" "1kOhm"
+		(property "Value" "10kOhm"
 			(at 173.99 102.87 90)
 			(effects
 				(font
@@ -4907,6 +4923,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 189.23 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28804bec-96d6-4971-9dda-0a9fa2f57d5d")
+		(property "Reference" "#PWR014"
+			(at 189.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8afaa8f-1274-4ba0-b7fa-1c8cf371cd27")
+		)
+		(instances
+			(project "measurement-chain"
+				(path "/c8cd35e5-2866-4aea-9ab4-10ed472689c0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 140.97 124.46 90)
 		(unit 1)
@@ -5171,6 +5253,75 @@
 			(project "measurement-chain"
 				(path "/c8cd35e5-2866-4aea-9ab4-10ed472689c0"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3799c196-e354-425b-8389-747bfd8e17b7")
+		(property "Reference" "C18"
+			(at 182.626 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47uF"
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.1952 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4717f2ea-5063-4bc1-8577-f05602c1f03c")
+		)
+		(pin "2"
+			(uuid "9c50e41f-4c49-43a4-9e84-8333bafe4e5b")
+		)
+		(instances
+			(project "measurement-chain"
+				(path "/c8cd35e5-2866-4aea-9ab4-10ed472689c0"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6992,7 +7143,7 @@
 				)
 			)
 		)
-		(property "Value" "10kOhm"
+		(property "Value" "4.7kOhm"
 			(at 109.22 100.33 90)
 			(effects
 				(font
@@ -8035,7 +8186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3uF"
+		(property "Value" "0.33uF"
 			(at 171.45 113.03 0)
 			(effects
 				(font
