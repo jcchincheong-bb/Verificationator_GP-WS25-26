@@ -4930,7 +4930,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 117.475 83.82) (xy 117.475 161.29) (xy 168.91 161.29) (xy 168.91 83.82)
+				(xy 117.7925 90.17) (xy 117.475 161.29) (xy 168.91 161.29) (xy 169.2275 90.17)
 			)
 			(stroke
 				(width 0)
@@ -7232,13 +7232,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5.5V"
-			(at 71.12 30.4799 90)
+		(property "Value" "+5V"
+			(at 73.66 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7431,7 +7430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28Ohm"
+		(property "Value" "100 Ohm"
 			(at 66.802 104.902 0)
 			(effects
 				(font
@@ -8104,7 +8103,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b39ea8ee-fc9a-4594-abed-6586b4611bc1")
 		(property "Reference" "#PWR025"
 			(at 130.81 146.05 0)
@@ -8115,12 +8113,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5.5V"
-			(at 130.81 137.16 0)
+		(property "Value" "+3.3V"
+			(at 126.746 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9273,7 +9272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5.5V"
+		(property "Value" "+5V"
 			(at 38.862 32.258 0)
 			(effects
 				(font
@@ -9530,5 +9529,8 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
+)
+
 	(embedded_fonts no)
 )
