@@ -395,7 +395,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Power-Regulation",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -411,6 +411,22 @@
     [
       "e09d161e-639f-4600-8aa9-665b6b461114",
       "Root"
+    ],
+    [
+      "6ec3a5ee-e994-405e-b559-4ab4521fbf5e",
+      "Battery Management Sub-System"
+    ],
+    [
+      "21909e57-aaf8-4e7a-b52f-ff03d1ad93cb",
+      "Power Regulation Sub-System"
+    ],
+    [
+      "28b9a068-ddcd-4761-903b-8265c34ada8d",
+      "Measurement Chain"
+    ],
+    [
+      "ce96d435-3607-40fc-9966-258a09df953a",
+      "Processing + Display"
     ]
   ],
   "text_variables": {}
