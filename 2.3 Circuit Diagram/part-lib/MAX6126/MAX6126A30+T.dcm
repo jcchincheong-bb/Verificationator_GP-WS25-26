@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX6126A30+T
+D Voltage References Ultra-High-Precision Ultra-Low-Noise
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX6126.pdf
+$ENDCMP
+#
+#End Doc Library
