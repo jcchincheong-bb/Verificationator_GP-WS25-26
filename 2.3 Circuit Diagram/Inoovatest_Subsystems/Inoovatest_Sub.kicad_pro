@@ -618,12 +618,12 @@
       "Battery Management"
     ],
     [
-      "21909e57-aaf8-4e7a-b52f-ff03d1ad93cb",
-      "Power Managment"
-    ],
-    [
       "28b9a068-ddcd-4761-903b-8265c34ada8d",
       "Measurement Chain"
+    ],
+    [
+      "21909e57-aaf8-4e7a-b52f-ff03d1ad93cb",
+      "Power Managment"
     ],
     [
       "ce96d435-3607-40fc-9966-258a09df953a",
