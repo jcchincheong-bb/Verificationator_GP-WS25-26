@@ -1,0 +1,16 @@
+---
+config:
+  theme: neutral
+---
+flowchart TD
+    A(Make and buy parts complete) --> B[Assemble battery cradle - A1]
+    A --> C[Top Panel assembly - A3]
+    A --> D[PCB Mount assembly - A2]
+    D --> E
+    B --> E[Basin assembly - A4]
+    E --> F[Electronics housing assembly - A5]
+    C --> F
+    A --> G[Pelican case ports assembly - A6]
+    G --> H[Lower pelican case assembly - A7]
+    F --> H
+    H --> I[Final assembly - A8]
