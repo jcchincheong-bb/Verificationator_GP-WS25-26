@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '505567_0781'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "505567-0781" (!) = "", "5055670781", "Other", "538-505567-0781", "https://www.mouser.co.uk/ProductDetail/Molex/505567-0781?qs=gt1LBUVyoHk9Rz%2FclhSEPw%3D%3D", "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 7P BLK GLD", "", "4.4 mm"
+END_PART
+
+END.

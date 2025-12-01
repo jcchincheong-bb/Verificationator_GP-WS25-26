@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=505567-0781
+PartCategory=Connector
+PackageCategory=Other
+PinCount=9
+Version=1.2
+Released=2019-11-29 15:16:53
+Downloaded=2025-11-30 15:50:12
+3D=Y

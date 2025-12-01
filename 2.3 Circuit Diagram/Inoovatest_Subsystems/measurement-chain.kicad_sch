@@ -6297,7 +6297,7 @@
 			)
 		)
 		(property "Value" "4.99kΩ"
-			(at 123.444 109.728 0)
+			(at 125.984 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7026,7 @@
 			)
 		)
 		(property "Value" "100 Ω"
-			(at 82.804 90.17 0)
+			(at 85.09 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)

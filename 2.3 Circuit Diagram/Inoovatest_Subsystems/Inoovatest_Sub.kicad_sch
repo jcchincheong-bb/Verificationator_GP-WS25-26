@@ -1791,16 +1791,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 175.26) (xy 39.37 175.006)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b66206-9a7a-4530-830a-5bb5cdeeb59f")
-	)
-	(wire
-		(pts
 			(xy 270.256 98.806) (xy 267.716 98.806)
 		)
 		(stroke
@@ -2361,16 +2351,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.736 175.006) (xy 46.736 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8eb2a54-557b-4e3f-adc9-3c5c091aad9b")
-	)
-	(wire
-		(pts
 			(xy 66.802 62.484) (xy 66.802 63.246)
 		)
 		(stroke
@@ -2481,16 +2461,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 175.006) (xy 46.736 175.006)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee93f533-8ba9-4405-9f31-acefdc87c3a5")
-	)
-	(wire
-		(pts
 			(xy 150.368 74.422) (xy 116.586 74.422)
 		)
 		(stroke
@@ -2501,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.116 175.26) (xy 39.37 175.26)
+			(xy 39.116 175.26) (xy 46.736 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3661,7 +3631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
+		(property "Footprint" "Molex_505567-0781:5055670781"
 			(at 50.546 154.94 0)
 			(effects
 				(font
@@ -3943,7 +3913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gp-components:M12_Female_1436563"
+		(property "Footprint" "LIB_1436563:1436563"
 			(at 57.912 57.404 0)
 			(effects
 				(font
@@ -4293,7 +4263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "gp-components:Kool_PushButton"
 			(at 39.116 97.028 0)
 			(effects
 				(font
@@ -4492,7 +4462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "gp-components:Kool_PushButton"
 			(at 39.116 85.598 0)
 			(effects
 				(font
@@ -5370,10 +5340,47 @@
 	)
 	(embedded_fonts no)
 )
-
+64259c725")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID" output
+			(at 164.592 44.45 90)
+			(uuid "88a6ad86-ba2c-47f1-9d3f-9fb5fe5b54e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Inoovatest_Sub"
 				(path "/e09d161e-639f-4600-8aa9-665b6b461114"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
+onts no)
+)
+"1")
+		)
+	)
+	(embedded_fonts no)
+)
+e09d161e-639f-4600-8aa9-665b6b461114"
 					(page "5")
 				)
 			)

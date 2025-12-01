@@ -1,4 +1,4 @@
-26428002714149353
+26443883253124540
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61256,6 +61256,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FH28-50S-0.5SH_05
+FH2850S05SH05
+FH28-50S-0.5SH(05)-2
+Connector
+0
+52
+52
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -70195,6 +70202,20 @@ Yellow 5381 Series LED
 0
 2
 2
+LIB_1436563
+1436563
+1436563-2
+Connector
+0
+5
+5
+LIB_USB1040-GF-L-B
+USB1040GFLB
+USB1040-GF-L-B-4
+Connector
+0
+6
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -70524,6 +70545,13 @@ module pcb
 0
 7
 7
+Molex_505567-0781
+5055670781
+505567-0781-2
+Connector
+0
+9
+9
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf
@@ -105615,6 +105643,34 @@ Varistor VF
 0
 2
 2
+XT90PW-M
+AMASS_XT90PW-M
+
+
+0
+4
+4
+gp-components
+ESP32-P4
+
+
+0
+113
+105
+gp-components
+IC_ESP32-P4NRW16
+
+
+0
+105
+105
+gp-components
+Kool_PushButton
+
+
+0
+7
+7
 gp-components
 M12_Female_1436563
 1436563-2
@@ -105622,3 +105678,10 @@ Connector
 0
 5
 5
+gp-components
+Untitled
+
+
+0
+0
+0
