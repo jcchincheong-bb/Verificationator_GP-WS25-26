@@ -8133,23 +8133,22 @@
 		(dnp no)
 		(uuid "cc5b7d2a-11ac-4f2a-91d5-9957aa4f7a9a")
 		(property "Reference" "U11"
-			(at 265.176 79.248 0)
+			(at 167.894 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 282.448 86.5438 0)
+		(property "Value" "ESP32-P4"
+			(at 167.894 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-P4"
+		(property "Footprint" "gp-components:ESP32-P4"
 			(at 168.402 165.354 0)
 			(effects
 				(font
@@ -8660,7 +8659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display:EA_eDIPTFT32-XXX"
+		(property "Footprint" "FH28-50S-0.5SH_05:FH2850S05SH05"
 			(at 163.068 150.622 0)
 			(effects
 				(font
@@ -8833,6 +8832,8 @@
 			)
 		)
 	)
+)
+
 )
 atasheet" ""
 			(at 284.226 54.864 0)
