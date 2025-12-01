@@ -3350,9 +3350,9 @@
 		)
 		(uuid "4deb3076-5dec-4819-b4c3-d222b6f56479")
 	)
-	(text "Low Pass Filter\n"
+	(text "Differential \nLow Pass Filter\n"
 		(exclude_from_sim no)
-		(at 69.596 102.87 0)
+		(at 73.152 99.822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3362,7 +3362,7 @@
 	)
 	(text "Sensor Interface"
 		(exclude_from_sim no)
-		(at 45.466 105.156 0)
+		(at 26.67 89.916 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3382,7 +3382,7 @@
 	)
 	(text "Instrumentation Amplifier"
 		(exclude_from_sim no)
-		(at 101.6 115.824 0)
+		(at 101.346 112.522 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4164,7 +4164,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.042 56.134) (xy 82.042 57.15)
+			(xy 83.82 56.134) (xy 83.82 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4334,7 +4334,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.042 57.15) (xy 95.25 57.15)
+			(xy 83.82 57.15) (xy 95.25 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9398,7 +9398,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 82.042 56.134 0)
+		(at 83.82 56.134 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9406,7 +9406,7 @@
 		(dnp no)
 		(uuid "edbdd65a-6f73-4c58-890d-ea8e3f32c839")
 		(property "Reference" "#PWR025"
-			(at 82.042 59.944 0)
+			(at 83.82 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,7 +9415,7 @@
 			)
 		)
 		(property "Value" "+5V5"
-			(at 82.042 52.07 0)
+			(at 83.058 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9423,7 +9423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.042 56.134 0)
+			(at 83.82 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9432,7 +9432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.042 56.134 0)
+			(at 83.82 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +9441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 82.042 56.134 0)
+			(at 83.82 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,9 +9661,7 @@
 		)
 	)
 )
-
-		)
-	)
+)
 )
 9f-4600-8aa9-665b6b461114/28b9a068-ddcd-4761-903b-8265c34ada8d"
 					(reference "C50")
