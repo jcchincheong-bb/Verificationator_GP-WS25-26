@@ -10705,15 +10705,25 @@
 		)
 		(uuid "01937bf8-096f-4bdd-ac80-b8bb5ffc8dfe")
 	)
-	(text "Li-Po Battery\n"
+	(text "Li-Ion Battery\n"
 		(exclude_from_sim no)
-		(at 73.406 171.704 0)
+		(at 71.882 187.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "0be049d0-806d-43e1-adb7-d54e027c4883")
+	)
+	(text "5V Boost Converter"
+		(exclude_from_sim no)
+		(at 68.326 268.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fb18725-c475-4d54-ad5f-f1d302f6f59e")
 	)
 	(text "Instrumentation Amplifier"
 		(exclude_from_sim no)
@@ -10724,6 +10734,16 @@
 			)
 		)
 		(uuid "127a1a39-75b1-4f30-b4bc-004e6fd805a1")
+	)
+	(text "USB-C Port\n"
+		(exclude_from_sim no)
+		(at 26.416 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a3f26c1-dc7b-4718-b020-ee902de28cb7")
 	)
 	(text "Analog\nSupply\n"
 		(exclude_from_sim no)
@@ -10745,6 +10765,26 @@
 		)
 		(uuid "3aa8df2b-23d5-4f69-887b-9284ec7f6939")
 	)
+	(text "Power MOSFET"
+		(exclude_from_sim no)
+		(at 115.57 204.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4210ef61-59ca-43fc-9690-2f344a1a8c3e")
+	)
+	(text "Selectable Excitation Rails"
+		(exclude_from_sim no)
+		(at 53.848 18.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46c0c317-5b54-4b74-8180-29f402a67ba5")
+	)
 	(text "Battery Management System"
 		(exclude_from_sim no)
 		(at 49.276 161.036 0)
@@ -10754,6 +10794,36 @@
 			)
 		)
 		(uuid "47239e27-2cd8-4acb-a9e5-8f25f24b40cb")
+	)
+	(text "3.3V Buck Converter"
+		(exclude_from_sim no)
+		(at 173.482 234.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5274b0e4-e809-40a7-9c6e-0189525e852e")
+	)
+	(text "Voltage Reference"
+		(exclude_from_sim no)
+		(at 105.41 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d64dd78-2a18-43a5-a330-ce484bb0e2b6")
+	)
+	(text "Optocoupler\n"
+		(exclude_from_sim no)
+		(at 170.18 197.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6276a6e6-e3e7-4a80-ba9d-f19c59dd57f5")
 	)
 	(text "Delta-Sigma ADC"
 		(exclude_from_sim no)
@@ -10795,6 +10865,26 @@
 		)
 		(uuid "906a2a53-978f-43ca-a2a1-5b11a3f3e7c8")
 	)
+	(text "5.5V Boost Converter"
+		(exclude_from_sim no)
+		(at 162.306 277.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "910453a3-b086-48d9-a8db-010b7d126a3b")
+	)
+	(text "10V Boost Converter"
+		(exclude_from_sim no)
+		(at 65.786 224.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9673cdb0-d9ef-4f60-b9b5-5b296dc3c876")
+	)
 	(text "+"
 		(exclude_from_sim no)
 		(at 77.089 175.387 0)
@@ -10814,6 +10904,16 @@
 			)
 		)
 		(uuid "a7559a0b-bf09-48b2-a1f5-bfe0a96c61e6")
+	)
+	(text "LCD Controller"
+		(exclude_from_sim no)
+		(at 271.272 187.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bed55040-3b6a-40e3-8422-1c431cc61dc6")
 	)
 	(text "USB-A MODULE\n"
 		(exclude_from_sim no)
@@ -10865,6 +10965,16 @@
 		)
 		(uuid "d5568283-09eb-4888-982c-f23fc4c5251e")
 	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 321.564 117.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dae818a6-6559-4336-9b3e-f65800511552")
+	)
 	(text "unidirectional tvs diode"
 		(exclude_from_sim no)
 		(at 51.816 118.11 0)
@@ -10884,6 +10994,16 @@
 			)
 		)
 		(uuid "e2cde857-0556-4c2b-abd4-fface4326523")
+	)
+	(text "Linear Charging Controller"
+		(exclude_from_sim no)
+		(at 93.98 139.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3430adf-9dd8-477d-8e0d-1d5737886df8")
 	)
 	(text "From \nCharging Circuit\n"
 		(exclude_from_sim no)
@@ -17812,7 +17932,7 @@
 			)
 		)
 		(property "Value" "Battery Terminal"
-			(at 73.152 187.706 0)
+			(at 79.502 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23149,15 +23269,15 @@
 		(dnp no)
 		(uuid "581cb651-4b9e-4863-98c6-5b8e29887cd5")
 		(property "Reference" "U5"
-			(at 158.75 182.626 0)
+			(at 168.656 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MOC 8102 Optocoupler"
-			(at 173.99 181.356 0)
+		(property "Value" "MOC8102"
+			(at 168.91 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23503,7 +23623,7 @@
 		(dnp no)
 		(uuid "640134f2-18ee-4b78-b717-52cedeca5f6f")
 		(property "Reference" "R19"
-			(at 37.338 207.518 0)
+			(at 35.814 207.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23846,8 +23966,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
-			(at 145.288 145.288 0)
+		(property "Value" "24.2kΩ"
+			(at 146.304 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30476,7 +30596,7 @@
 		(dnp no)
 		(uuid "e809b562-e9c7-418f-8e8a-6392458e7819")
 		(property "Reference" "R21"
-			(at 39.37 217.932 0)
+			(at 39.878 217.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)

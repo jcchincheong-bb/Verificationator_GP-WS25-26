@@ -1,0 +1,73 @@
+Reference,Qty,Value / Model Number,Decription,Footprint
+BT1,1,XT90PW,Battery connector designed for secure connection ,XT90PW-M:AMASS_XT90PW-M
+"C1,C23",2,100uF,Electrolytic capacitors to block voltage spikes,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+"C2,C4,C5,C6,C8,C10,C13,C15,C19,C20,C27,C33, C40",13,0.1uF,X7R ceramic capacitors for decoupling ICs,Capacitor_SMD:C_0805_2012Metric
+C3,1,1uF,X7R ceramic capacitors to smoothen output of charging circuit MCP73223,Capacitor_SMD:C_0805_2012Metric
+"C7,C9,C11,C12,C24,C25,C26,C28,C34,C35,C37,C41",12,10uF,X7R ceramic capacitors for decoupling ICs,Capacitor_SMD:C_1206_3216Metric
+C14,1,3.3uF,X7R ceramic capacitor for low pass filtering,Capacitor_SMD:C_0805_2012Metric
+C16,1,4.7uF,X7R ceramic capacitor for low pass filtering,Capacitor_SMD:C_0805_2012Metric
+C17,1,0.33uF,X7R ceramic capacitor for low pass filtering,Capacitor_SMD:C_0805_2012Metric
+C18,1,0.47uF,X7R ceramic capacitor for low pass filtering,Capacitor_SMD:C_0805_2012Metric
+C21,1,10pF,multilayered ceramic capacitor for counteracting parasitic elements of digital potentiometer,Capacitor_SMD:C_0805_2012Metric
+C22,1,10nF,X7R ceramic bypass capacitor of ADS127L21 ADC,Capacitor_SMD:C_0805_2012Metric
+C29,1,3.3nF,"X7R ceramic capacitor to set the internal voltage reference
+rise time of TPS62130 buck convert",Capacitor_SMD:C_0805_2012Metric
+"C30,C31,C32,C36,C39",5,22uF,X7R ceramic capacitor for smoothing output of TPS61089 boost convert and acting as loop compensation,Capacitor_SMD:C_1206_3216Metric
+C38,1,2.2uF,X7R ceramic capacitor for decoupling TPS61089 boost converter,Capacitor_SMD:C_0805_2012Metric
+D1,1,SMF5V0A,TVS Diode for overvoltage and discharge protection of the MCP73223 charging circuit,Diode_SMD:D_SMF
+D2,1,Bi-color LED,Bi-color LED to indicate charging status of battery,LED_THT:LED_D8.0mm-3
+"D3,D4",2,D_Schottky,Diodes required by the TPS61170 and TPS61089 boost converters to direct the high voltage pulse during the release phase of the converter each cycle,Diode_SMD:D_SMF
+IC1,1,MCP73223,Linear charge management controller used to safely charge the Li-Ion battery of the device,Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm
+IC2,1,MAX6126,"Ultra-High-Precision, Ultra-Low-Noise,
+Voltage reference IC to ensure the ADS127L21 ADC has an accurate 5V reference for conversion",Package_SO:SOIC-8_5.3x5.3mm_P1.27mm
+J1,1,M12 5-pin,IP67 connector for the load cells,LIB_1436563:1436563
+J2,1,USB A,IP67 USB 2.0 port for output of measurement data,LIB_USB1040-GF-L-B:USB1040GFLB
+J3,1,USB C,IP67 USB C port for charging the battery of the device,Molex_505567-0781:5055670781
+"L1,L4",2,4.7 uH,Inductors used by the switching voltage regulators for storage and release of energy,Inductor_THT:L_Radial_D6.0mm_P4.00mm
+L2,1,2.2uH,Inductor used by the switching voltage regulators for storage and release of energy,Inductor_THT:L_Radial_D6.0mm_P4.00mm
+L3,1,4.7uH,Inductor used by the switching voltage regulators for storage and release of energy,Inductor_THT:L_Radial_D6.0mm_P4.00mm
+Q1,1,AO3401A,P-channel Power MOSFET used to control the main supply line from the battery,
+"Q2,Q5",2,AO3401A,P-channel Power MOSFETs used to control the switch the excitation line between 5V and 10V,Package_TO_SOT_SMD:SOT-23
+"Q3,Q4",2,AO3400A,N-channel Power MOSFETs used to drive Q2 and Q5 in switching between 5V and 10V exictation,
+Q6,1,AO3400A,N-channel Power MOSFET used to drive the back light of the LCD ,Package_TO_SOT_SMD:SOT-23
+"R1,R2",2,5.1kΩ,Metal oxide resistors to pull-down the Configuration Channel pins of the USB Cport,Resistor_SMD:R_0805_2012Metric
+R3,1,500kΩ,Metal oxide resistors to set the charging speed of the MCP73123 charging circuit,Resistor_SMD:R_0805_2012Metric
+R4,1,24.2,Metal oxide resistor for the voltage divider to monitor the battery charge,
+R5,1,200kΩ,Metal oxide resistor for the voltage divider to monitor the battery charge,Resistor_SMD:R_0805_2012Metric
+"R6, R9, R10",3,10kΩ,Thin film low tolerance resistors for the low pass filters in the measurement chain,
+"R12,R13,R20,R24,R26,R34,R35",7,10kΩ,Metal oxide pull-up resistors to set default state of various pins,Resistor_SMD:R_0805_2012Metric
+R7,1,100 Ω,Thin film low tolerance resistor to set the gain of the AD8421 instrumentation amplifier,Resistor_SMD:R_0805_2012Metric
+R8,1,4.7kΩ,Thin film low tolerance resistor for the low pass filters in the measurement chain,Resistor_SMD:R_0805_2012Metric
+R11,1,4.99kΩ,Thin film low tolerance resistor to set the gain of the AD8421 instrumentation amplifier,Resistor_SMD:R_0805_2012Metric
+R14,1,1.2kΩ,Metal oxide resistor for the voltage divider to monitor power button state,Resistor_SMD:R_0805_2012Metric
+R15,1,10kΩ,Metal oxide resistor for the voltage divider to monitor power button state,
+R16,1,1kΩ,Metal oxide pull-up resistor to set default state of SW1 power switch,Resistor_SMD:R_0805_2012Metric
+R17,2,100kΩ,Metal oxide resistor to separate the SW1 and Q1 nodes ,Resistor_SMD:R_0805_2012Metric
+R18,1,1MΩ,Metal oxide pull-up resistor to set default state of Q1 power MOSFET,Resistor_SMD:R_0805_2012Metric
+R19,1,71.4 kΩ,Metal oxide resistor for the voltage divider to set voltage output for TPS61170 boost converter,Resistor_SMD:R_0805_2012Metric
+R21,1,10 kΩ,Metal oxide resistor for the voltage divider to set voltage output for TPS61170 boost converter,Resistor_SMD:R_0805_2012Metric
+R22,1,100kΩ,Metal oxide pull-up resistor to set default state of PG pin on TPS62130,Resistor_SMD:R_0805_2012Metric
+R23,1,31.25kΩ,Metal oxide resistor for the voltage divider to set voltage output for TPS62130 buck converter,Resistor_SMD:R_0805_2012Metric
+R25,1,10kΩ,Metal oxide resistor for the voltage divider to set voltage output for TPS62130 buck converter,
+R27,1,301kΩ,Metal oxide resistor for programming the switching frequency of the TPS61089 boost converter,Resistor_SMD:R_0805_2012Metric
+R28,1,40 kΩ,Metal oxide resistor for the voltage divider to set voltage output for TPS61099 boost converter,Resistor_SMD:R_0805_2012Metric
+R29,1,4.87 kΩ,Metal oxide resistor for the voltage divider to set voltage output for TPS61089 boost converter,Resistor_SMD:R_0805_2012Metric
+R30,1,10kΩ,Metal oxide resistor for the voltage divider to set voltage output for TPS61099 boost converter,Resistor_SMD:R_0805_2012Metric
+R31,1,10kΩ,Metal oxide resistor for the voltage divider to set voltage output for TPS61089 boost converter,Resistor_SMD:R_0805_2012Metric
+R32,1,17.4kΩ,Metal oxide resistor for loop compensation of the TPS61089 boost converter,Resistor_SMD:R_0805_2012Metric
+R33,1,127kΩ,Metal oxide resistor for programming the switching peak current of the TPS61089 boost converter,Resistor_SMD:R_0805_2012Metric
+R36,1,20kΩ,Metal oxide resistor to create short delay on the enabling pin of the MCU. This ensures supply lines are energised before start up,Resistor_SMD:R_0805_2012Metric
+SW1,1,Emergency Stop,IP67 button to interrupt program in case of emergency,gp-components:Kool_PushButton
+SW2,1,ON/OFF,IP67 button to power device on and off,gp-components:Kool_PushButton
+U1,1,AD8421,Low-noise instrumentation amplifier to peform first stage amplification and noise rejection of the load cell signals,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+U2,1,OPA188,Zero-drift operational amplidier to perform second stage amplification of load cell signals,Package_TO_SOT_SMD:TSOT-23-5
+U3,1,ADS127L21,Delta-sigma ADC to convert analog signal into digital for processing in the microcontroller,Package_DFN_QFN:WQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm
+U4,1,MCP41U83,1024 position digital potentiometer for adjusting the gain of the OPA188 amplifier,Package_SO:TSSOP-14_4.4x5mm_P0.65mm
+U5,1,MOC 8102,Optodecoupler to isolate the main power line from controlling MCU pin for latching the supply switching network,Package_DIP:DIP-5-6_W7.62mm_SMDSocket_SmallPads
+U6,1,TPS61170,Low noise boost converter for 10V excitation line,Package_TO_SOT_SMD:SOT-23-6
+U7,1,TPS62130,Low noise buck converter for 3.3V supply line,Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm
+U8,1,TPS61099,Low noise boost converter for 5V excitation line,Package_TO_SOT_SMD:SOT-23-6
+U9,1,TPS61089,Low noise boost converter for 5.5V supply line,Package_DFN_QFN:Texas_VQFN-RNR0011A-11
+U10,1,W25Q128JVS,SPI Flash memory IC to store measurement data,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm
+U11,1,ESP32-P4,High performance MCU to control device and perform data processing,gp-components:ESP32-P4
+U12,1,TouchScreen/SPI Touch Controller,Connection to control the resistive touch screen LCD,FH28-50S-0.5SH_05:FH2850S05SH05

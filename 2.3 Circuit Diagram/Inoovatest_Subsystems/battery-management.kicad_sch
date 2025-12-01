@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "851e5aed-0c5a-4e88-b16c-a671625282e2")
 	(paper "A4")
+	(title_block
+		(title "Battery Managment")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:LGS5500EP"
 			(exclude_from_sim no)
@@ -1345,7 +1348,7 @@
 	)
 	(rectangle
 		(start 80.518 64.77)
-		(end 204.47 119.126)
+		(end 236.728 145.034)
 		(stroke
 			(width 0)
 			(type solid)
@@ -1356,15 +1359,58 @@
 		)
 		(uuid 8704cd92-f443-4e79-a041-008a7688c794)
 	)
+	(text "To the battery \nto charge"
+		(exclude_from_sim no)
+		(at 263.144 80.264 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "38790baf-0cc5-42cd-839f-42ce4e7eaa2a")
+	)
+	(text "Status Bi-Color LED \nshow the state of the battery \n(Charging or Discharging)"
+		(exclude_from_sim no)
+		(at 153.924 121.666 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3b33f61a-8c64-47a4-b1ea-795727a2f12a")
+	)
 	(text "Battery Management System"
 		(exclude_from_sim no)
-		(at 107.95 115.57 0)
+		(at 109.474 141.732 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
 		(uuid "3d60230a-e814-4c26-86f8-4172fa174e42")
+	)
+	(text "USB C Supplying 5V into MCP73223 \nbattery charge management\ncontroller feeding the Battery "
+		(exclude_from_sim no)
+		(at 48.006 82.296 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "47dbffdf-7545-4db3-9e60-e6025af68cb0")
+	)
+	(text "Linear Charging Controller"
+		(exclude_from_sim no)
+		(at 153.924 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48da4659-0376-47a2-8292-2f8acd6c4a7d")
 	)
 	(text "unidirectional tvs diode"
 		(exclude_from_sim no)
@@ -1378,7 +1424,7 @@
 	)
 	(text "Battery Monitor"
 		(exclude_from_sim no)
-		(at 186.944 112.776 0)
+		(at 213.106 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1386,15 +1432,27 @@
 		)
 		(uuid "6b656906-47ef-401b-9a0f-18f26ffda281")
 	)
-	(text "Li-Po Battery\n"
+	(text "Sets the 5V \ninput mode\non USB C"
 		(exclude_from_sim no)
-		(at 196.596 93.472 0)
+		(at 96.266 98.044 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
+				(color 0 0 0 1)
 			)
 		)
-		(uuid "fff1504e-8a92-4150-b7b7-5ef1657c68c8")
+		(uuid "86f48cfe-2722-4fc1-b7f8-769c723b4c50")
+	)
+	(text "The voltage divider creates the battery monitoring point \nprecisely so the ESP32-P4 can determine \nthe battery's charge level."
+		(exclude_from_sim no)
+		(at 227.584 123.444 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f0f56ee1-52d8-4023-9283-6a86de288d3e")
 	)
 	(junction
 		(at 121.666 74.676)
@@ -1439,7 +1497,7 @@
 		(uuid "c85b11ba-fe51-4679-b70d-47bd54dfe03a")
 	)
 	(junction
-		(at 196.088 104.14)
+		(at 224.028 103.632)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9381cd7-84c4-485b-b29c-ea0e91fee7bb")
@@ -1458,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.928 80.518) (xy 185.928 91.948)
+			(xy 185.928 81.534) (xy 185.928 91.948)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.088 103.632) (xy 196.088 104.14)
+			(xy 224.028 103.124) (xy 224.028 103.632)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.546 78.486) (xy 205.486 78.486)
+			(xy 177.546 78.486) (xy 239.522 78.486)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1676,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.088 104.14) (xy 196.088 104.902)
+			(xy 224.028 103.632) (xy 224.028 104.394)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1726,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.502 104.14) (xy 196.088 104.14)
+			(xy 238.76 103.632) (xy 224.028 103.632)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.088 95.758) (xy 196.088 96.012)
+			(xy 224.028 95.25) (xy 224.028 95.504)
 		)
 		(stroke
 			(width 0)
@@ -1848,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.486 80.518) (xy 185.928 80.518)
+			(xy 239.776 81.534) (xy 185.928 81.534)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +1957,7 @@
 	)
 	(hierarchical_label "CHARGE-"
 		(shape input)
-		(at 205.486 80.518 0)
+		(at 239.776 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1932,7 +1990,7 @@
 	)
 	(hierarchical_label "CHARGE+"
 		(shape input)
-		(at 205.486 78.486 0)
+		(at 239.522 78.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1943,7 +2001,7 @@
 	)
 	(hierarchical_label "BAT_Monitor"
 		(shape input)
-		(at 206.502 104.14 0)
+		(at 238.76 103.632 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2158,7 +2216,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 196.088 108.712 0)
+		(at 224.028 108.204 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2167,7 +2225,7 @@
 		(dnp no)
 		(uuid "172dbfa5-2c10-4318-af0a-8adf20105e37")
 		(property "Reference" "R5"
-			(at 194.564 108.712 0)
+			(at 222.504 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2234,7 @@
 			)
 		)
 		(property "Value" "200kΩ"
-			(at 203.708 108.712 0)
+			(at 231.648 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 197.866 108.712 90)
+			(at 225.806 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.088 108.712 0)
+			(at 224.028 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2261,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 196.088 108.712 0)
+			(at 224.028 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2642,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 196.088 95.758 0)
+		(at 224.028 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2594,7 +2652,7 @@
 		(fields_autoplaced yes)
 		(uuid "45ff9e80-021d-4510-8959-95e1f3770752")
 		(property "Reference" "#PWR013"
-			(at 196.088 99.568 0)
+			(at 224.028 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2661,7 @@
 			)
 		)
 		(property "Value" "V_BAT"
-			(at 196.088 91.186 0)
+			(at 224.028 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.088 95.758 0)
+			(at 224.028 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.088 95.758 0)
+			(at 224.028 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 196.088 95.758 0)
+			(at 224.028 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2849,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 196.088 99.822 0)
+		(at 224.028 99.314 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2800,7 +2858,7 @@
 		(dnp no)
 		(uuid "6ad7da34-d601-463a-b267-61bcf6253881")
 		(property "Reference" "R4"
-			(at 194.31 99.822 0)
+			(at 222.25 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,8 +2866,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
-			(at 203.962 99.822 0)
+		(property "Value" "24.2kΩ"
+			(at 231.902 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2876,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 197.866 99.822 90)
+			(at 225.806 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.088 99.822 0)
+			(at 224.028 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2894,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 196.088 99.822 0)
+			(at 224.028 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,7 +2919,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 196.088 112.522 0)
+		(at 224.028 112.014 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2870,7 +2928,7 @@
 		(dnp no)
 		(uuid "6e516be7-8db5-407a-8d1e-e3417764e2f7")
 		(property "Reference" "#PWR018"
-			(at 196.088 118.872 0)
+			(at 224.028 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2937,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.088 117.094 0)
+			(at 224.028 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.088 112.522 0)
+			(at 224.028 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.088 112.522 0)
+			(at 224.028 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 196.088 112.522 0)
+			(at 224.028 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,87 +3390,7 @@
 		)
 	)
 )
-4ab4521fbf5e"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-)
-fects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 108.966 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9febf8d9-dac5-4cd4-bd87-b25469d11ad5")
-		)
-		(pin "2"
-			(uuid "4980eabe-21bc-47f9-9e12-d92a0e934f23")
-		)
-		(instances
-			(project "Inoovatest"
-				(path "/e09d161e-639f-4600-8aa9-665b6b461114/6ec3a5ee-e994-405e-b559-4ab4521fbf5e"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.444 78.486 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94fc22a8-9f45-4a34-ba2f-5f8ad5cb99bf")
-		(property "Reference" "C38"
-			(at 126.746 77.2159 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 126.746 79.7559 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.4092 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.444 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+size 1.27 1.27)
 				)
 				(hide yes)
 			)

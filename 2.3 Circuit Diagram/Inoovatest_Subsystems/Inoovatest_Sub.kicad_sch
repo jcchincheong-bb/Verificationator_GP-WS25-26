@@ -1586,6 +1586,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "USB-C Port\n"
+		(exclude_from_sim no)
+		(at 44.958 186.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "239f1de2-802b-49db-80c6-c2a296f65034")
+	)
 	(text "+"
 		(exclude_from_sim no)
 		(at 55.245 111.379 0)
@@ -1606,9 +1616,9 @@
 		)
 		(uuid "58e80c92-fa13-49f7-b9c0-f3017ef7bb4c")
 	)
-	(text "Li-Po Battery\n"
+	(text "Li-Ion Battery\n"
 		(exclude_from_sim no)
-		(at 51.562 107.696 0)
+		(at 51.054 131.318 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3706,7 +3716,7 @@
 			)
 		)
 		(property "Value" "Battery Terminal"
-			(at 51.054 130.302 0)
+			(at 62.992 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4258,7 @@
 		(dnp no)
 		(uuid "d4f670f5-1d32-4f25-9d62-9105ee8a3080")
 		(property "Reference" "SW2"
-			(at 44.45 100.838 0)
+			(at 39.116 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,17 +5350,7 @@
 	)
 	(embedded_fonts no)
 )
-64259c725")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ID" output
-			(at 164.592 44.45 90)
-			(uuid "88a6ad86-ba2c-47f1-9d3f-9fb5fe5b54e0")
+fe5b54e0")
 			(effects
 				(font
 					(size 1.27 1.27)

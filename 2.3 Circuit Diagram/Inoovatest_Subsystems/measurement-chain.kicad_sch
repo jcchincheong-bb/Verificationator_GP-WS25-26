@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "d2a2a658-ffe7-472a-9b70-5b2084c35b90")
 	(paper "A4")
+	(title_block
+		(title "Measurement Chain")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Instrumentation:AD8421"
 			(pin_names
@@ -3340,6 +3343,50 @@
 		)
 		(uuid "0464313d-ed0c-4ff7-b3a9-97df21dcbd64")
 	)
+	(text "-1st amplification\n-differential noise rejection"
+		(exclude_from_sim no)
+		(at 101.6 121.666 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "23b19a42-675a-4497-9b9e-080acf777b10")
+	)
+	(text "Power Managment ensures \nonly 1 rail is \non at a time"
+		(exclude_from_sim no)
+		(at 62.992 49.784 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2be6a642-7ae5-4ca4-826b-1262e2355722")
+	)
+	(text "To MCU "
+		(exclude_from_sim no)
+		(at 274.574 74.168 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3b0dd55b-7e5f-4f2b-88be-a2d9bf3a2a11")
+	)
+	(text "-Converts analog signal to digital\n-on-board digital filters"
+		(exclude_from_sim no)
+		(at 224.028 125.984 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4860d7cc-3a05-4fe7-b8dd-2fce15a5a7c9")
+	)
 	(text "Delta-Sigma ADC"
 		(exclude_from_sim no)
 		(at 198.374 119.634 0)
@@ -3350,6 +3397,27 @@
 		)
 		(uuid "4deb3076-5dec-4819-b4c3-d222b6f56479")
 	)
+	(text "Selectable Excitation Rails"
+		(exclude_from_sim no)
+		(at 66.04 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57343956-ef96-48b4-9d5e-69cfaccd5a7a")
+	)
+	(text "Rejects high \nfrequency noise"
+		(exclude_from_sim no)
+		(at 72.898 105.918 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5eab7ecd-696e-46c6-a287-89a13aa3d5bd")
+	)
 	(text "Differential \nLow Pass Filter\n"
 		(exclude_from_sim no)
 		(at 73.152 99.822 0)
@@ -3359,6 +3427,38 @@
 			)
 		)
 		(uuid "78ba258b-8014-41eb-8353-00e8e0aeb029")
+	)
+	(text "Voltage Reference"
+		(exclude_from_sim no)
+		(at 111.252 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3e77432-be3c-40f4-9948-5826e0a1350a")
+	)
+	(text "Provides low noise, \nhigh accuracy\nreference voltage"
+		(exclude_from_sim no)
+		(at 143.002 49.784 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d791707e-b35a-42cc-93f0-fb6ef5fbb2f3")
+	)
+	(text "Precise gain control to \nmatch load cell sensitivity"
+		(exclude_from_sim no)
+		(at 145.542 148.59 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e43b2437-0328-4efb-80e6-da8df61c5240")
 	)
 	(text "Sensor Interface"
 		(exclude_from_sim no)
@@ -3674,7 +3774,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 31.242) (xy 58.674 31.242)
+			(xy 26.416 28.448) (xy 28.702 28.448)
 		)
 		(stroke
 			(width 0)
@@ -3904,7 +4004,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 23.622) (xy 70.866 23.622)
+			(xy 38.608 20.828) (xy 40.894 20.828)
 		)
 		(stroke
 			(width 0)
@@ -3914,7 +4014,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.674 29.718) (xy 58.674 31.242)
+			(xy 28.702 26.924) (xy 28.702 28.448)
 		)
 		(stroke
 			(width 0)
@@ -4124,7 +4224,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.928 35.814) (xy 58.928 36.576)
+			(xy 28.956 33.02) (xy 28.956 33.782)
 		)
 		(stroke
 			(width 0)
@@ -4234,7 +4334,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 23.622) (xy 58.674 23.622)
+			(xy 26.416 20.828) (xy 28.702 20.828)
 		)
 		(stroke
 			(width 0)
@@ -4354,7 +4454,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.674 22.098) (xy 58.674 23.622)
+			(xy 28.702 19.304) (xy 28.702 20.828)
 		)
 		(stroke
 			(width 0)
@@ -4414,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 35.814) (xy 58.928 35.814)
+			(xy 26.416 33.02) (xy 28.956 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4564,7 +4664,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 31.242) (xy 70.866 31.242)
+			(xy 38.608 28.448) (xy 40.894 28.448)
 		)
 		(stroke
 			(width 0)
@@ -4624,7 +4724,7 @@
 	)
 	(wire
 		(pts
-			(xy 70.866 22.098) (xy 70.866 23.622)
+			(xy 40.894 19.304) (xy 40.894 20.828)
 		)
 		(stroke
 			(width 0)
@@ -4714,7 +4814,7 @@
 	)
 	(wire
 		(pts
-			(xy 70.866 29.718) (xy 70.866 31.242)
+			(xy 40.894 26.924) (xy 40.894 28.448)
 		)
 		(stroke
 			(width 0)
@@ -4864,7 +4964,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 56.388 35.814 180)
+		(at 26.416 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4886,7 +4986,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 68.58 31.242 180)
+		(at 38.608 28.448 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4963,7 +5063,7 @@
 	)
 	(hierarchical_label "5.5V"
 		(shape output)
-		(at 56.388 31.242 180)
+		(at 26.416 28.448 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4985,7 +5085,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape output)
-		(at 56.388 23.622 180)
+		(at 26.416 20.828 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5007,7 +5107,7 @@
 	)
 	(hierarchical_label "10V"
 		(shape output)
-		(at 68.58 23.622 180)
+		(at 38.608 20.828 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5812,7 +5912,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 58.928 36.576 0)
+		(at 28.956 33.782 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5821,7 +5921,7 @@
 		(dnp no)
 		(uuid "2efae89d-c0b1-4b1f-aa9f-85499320e6f7")
 		(property "Reference" "#PWR023"
-			(at 58.928 42.926 0)
+			(at 28.956 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.928 41.656 0)
+			(at 28.956 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +5938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.928 36.576 0)
+			(at 28.956 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +5947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.928 36.576 0)
+			(at 28.956 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,7 +5956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 58.928 36.576 0)
+			(at 28.956 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6715,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 70.866 22.098 0)
+		(at 40.894 19.304 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6623,7 +6723,7 @@
 		(dnp no)
 		(uuid "5c0d97c9-db95-4687-95fa-0d54902b6b06")
 		(property "Reference" "#PWR020"
-			(at 70.866 25.908 0)
+			(at 40.894 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6732,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 70.104 18.542 0)
+			(at 40.132 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.866 22.098 0)
+			(at 40.894 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +6750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 70.866 22.098 0)
+			(at 40.894 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +6759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 70.866 22.098 0)
+			(at 40.894 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6781,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 58.674 22.098 0)
+		(at 28.702 19.304 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6689,7 +6789,7 @@
 		(dnp no)
 		(uuid "61469e71-2f23-4cf5-b7f2-543a82029837")
 		(property "Reference" "#PWR019"
-			(at 58.674 25.908 0)
+			(at 28.702 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6798,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 57.912 18.542 0)
+			(at 27.94 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.674 22.098 0)
+			(at 28.702 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +6816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.674 22.098 0)
+			(at 28.702 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 58.674 22.098 0)
+			(at 28.702 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8210,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 70.866 29.718 0)
+		(at 40.894 26.924 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8118,7 +8218,7 @@
 		(dnp no)
 		(uuid "c88ac693-f93b-4eab-b438-52591aa952ed")
 		(property "Reference" "#PWR022"
-			(at 70.866 33.528 0)
+			(at 40.894 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8227,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 70.104 26.162 0)
+			(at 40.132 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.866 29.718 0)
+			(at 40.894 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +8245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 70.866 29.718 0)
+			(at 40.894 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +8254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 70.866 29.718 0)
+			(at 40.894 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8341,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 58.674 29.718 0)
+		(at 28.702 26.924 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8249,7 +8349,7 @@
 		(dnp no)
 		(uuid "d02dfa9d-e32a-4f95-920d-188302fdd4a0")
 		(property "Reference" "#PWR021"
-			(at 58.674 33.528 0)
+			(at 28.702 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8358,7 @@
 			)
 		)
 		(property "Value" "+5V5"
-			(at 57.912 26.162 0)
+			(at 27.94 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.674 29.718 0)
+			(at 28.702 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.674 29.718 0)
+			(at 28.702 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +8385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 58.674 29.718 0)
+			(at 28.702 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,114 +9761,7 @@
 		)
 	)
 )
-)
-)
-9f-4600-8aa9-665b6b461114/28b9a068-ddcd-4761-903b-8265c34ada8d"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 58.166 62.738 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7e57236-f617-4808-9f2e-33c4919692c4")
-		(property "Reference" "Q10"
-			(at 53.34 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 66.802 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 53.086 64.643 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 53.086 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, Logic-Level N-Channel MOSFET, SOT-23"
-			(at 58.166 62.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "020ad921-a8af-4f12-bf28-822d33c5cb57")
-		)
-		(pin "3"
-			(uuid "6ebc5e77-2a8f-4423-8fba-c390aa81b066")
-		)
-		(pin "2"
-			(uuid "f26a6c36-5ee7-4929-b628-d647dedaf8f4")
-		)
-		(instances
-			(project "Inoovatest"
-				(path "/e09d161e-639f-4600-8aa9-665b6b461114/28b9a068-ddcd-4761-903b-8265c34ada8d"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 172.466 86.106 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dafa1f84-26e9-4569-9329-e2fa3e5adbee")
-		(property "Reference" "C62"
-			(at 168.402 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 166.878 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(size 1.27 1.27)
 				)
 				(justify left)
 			)

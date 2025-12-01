@@ -5,6 +5,7 @@
 	(uuid "09a1d3fc-4941-4c1b-8c08-e2e3b831f7f2")
 	(paper "A3")
 	(title_block
+		(title "Processing, Memory and Display")
 		(date "2025-11-28")
 	)
 	(lib_symbols
@@ -3891,6 +3892,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Non-Volatile Storage to:\n-Store User settings \n-UI static images, Fonts and Menu Layout\n-Data Logging\n\n"
+		(exclude_from_sim no)
+		(at 304.8 55.626 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "096757dc-4576-4884-ab1f-e0dc09140454")
+	)
 	(text "SPI Flash Memory\n"
 		(exclude_from_sim no)
 		(at 267.716 33.528 0)
@@ -3900,6 +3913,29 @@
 			)
 		)
 		(uuid "0da7894f-ff41-4267-9f33-83a456b4a796")
+	)
+	(text "To control \ndigital poti\n(I2C)\n"
+		(exclude_from_sim no)
+		(at 74.168 102.87 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0f9c7a34-1de2-42c8-bca9-4f45da24a530")
+	)
+	(text "Short delay for \nsmooth start-up"
+		(exclude_from_sim no)
+		(at 163.576 57.658 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "135f958c-a171-4b42-8bb2-c1a0dfcf6b8d")
 	)
 	(text "Display \nBACK LIGHT \nCONTROL\n"
 		(exclude_from_sim no)
@@ -3911,15 +3947,147 @@
 		)
 		(uuid "3a471f45-5c09-4bc1-a440-b161d23e5e49")
 	)
+	(text "Connect to ID line in M12 \nto identify load cell model"
+		(exclude_from_sim no)
+		(at 150.368 24.384 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4df567cb-c656-401d-9cd1-3bf4761182c1")
+	)
+	(text "ESP32-P4 :\n-Controls entire system\n-Retrieves the program and graphics \nfrom the Flash memory\n-Processes the high-precision sensor data\n-Drives the 10-inch screen to present \nthe results to the user."
+		(exclude_from_sim no)
+		(at 305.562 111.506 0)
+		(effects
+			(font
+				(size 2.8 2.8)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "54028b76-c0ea-45d3-a993-909ea0956a54")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 222.758 129.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84724125-b69c-4c83-a279-fbb6cae20a48")
+	)
+	(text "To Monitor \nBattery level"
+		(exclude_from_sim no)
+		(at 66.294 116.078 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "88c3a071-1bb0-4f90-95ed-63069e002bd6")
+	)
+	(text "Emergency Stop Button\n"
+		(exclude_from_sim no)
+		(at 242.57 22.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8aa880eb-d472-4654-a4e1-633ab952ab71")
+	)
+	(text "To Receive \nADC Data\n(SPI)\n"
+		(exclude_from_sim no)
+		(at 128.524 94.996 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "93a18083-2190-4745-a3d5-566eed2775a1")
+	)
+	(text "To select whether to \nuse 5V or 10V excitation \nat load cells"
+		(exclude_from_sim no)
+		(at 62.23 172.72 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a2d2ca3a-0dab-41c5-ab85-fb23e1b8c5e2")
+	)
+	(text "Connector for\nTFT 10\" Touch LCD Screen \nHMI"
+		(exclude_from_sim no)
+		(at 174.244 233.68 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ad7d7f6a-13c0-4e7e-a263-a152436a5f27")
+	)
+	(text "To Monitor and Control\nmain power \nswitching circuit"
+		(exclude_from_sim no)
+		(at 58.42 137.922 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "cf339dc8-340a-47a4-b1af-12c71dda1d4c")
+	)
+	(text "To control ADC"
+		(exclude_from_sim no)
+		(at 105.664 41.148 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d4550a2f-a597-413a-87f3-00b67093a6bf")
+	)
+	(text "Data lines\nUSB_A point for Data EXPORT\n(also programming during assembly)\n\n"
+		(exclude_from_sim no)
+		(at 353.06 194.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e95086a8-d2c7-40a7-b13b-e404e4d34a2e")
+	)
 	(text "Processing, Memory and LCD"
 		(exclude_from_sim no)
-		(at 163.068 237.49 0)
+		(at 163.068 248.92 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
 		(uuid "f3b0f5ad-b985-49ac-8ba1-293b512cea4c")
+	)
+	(text "LCD Controller"
+		(exclude_from_sim no)
+		(at 172.974 200.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f61666be-bb8f-462f-a651-479ae6ee3e55")
 	)
 	(junction
 		(at 253.492 52.832)
@@ -4223,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.122 78.994) (xy 214.122 55.88)
+			(xy 214.122 78.994) (xy 214.122 38.862)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.392 147.574) (xy 165.862 147.574)
+			(xy 85.344 164.338) (xy 88.646 164.338)
 		)
 		(stroke
 			(width 0)
@@ -4323,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.858 34.29) (xy 136.144 34.29)
+			(xy 39.624 30.226) (xy 41.91 30.226)
 		)
 		(stroke
 			(width 0)
@@ -4453,6 +4621,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.646 164.338) (xy 88.646 147.574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3005559f-9164-4b56-a545-c30cff490de7")
+	)
+	(wire
+		(pts
 			(xy 254.762 170.434) (xy 267.97 170.434)
 		)
 		(stroke
@@ -4573,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.646 25.908) (xy 219.202 25.908)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404a7cc3-dbd4-4e0d-807a-39d86316226b")
+	)
+	(wire
+		(pts
 			(xy 300.482 128.524) (xy 300.482 233.934)
 		)
 		(stroke
@@ -4653,7 +4841,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.432 60.96) (xy 206.502 60.96)
+			(xy 154.178 43.942) (xy 206.502 43.942)
 		)
 		(stroke
 			(width 0)
@@ -4763,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.432 58.42) (xy 209.042 58.42)
+			(xy 154.178 41.402) (xy 209.042 41.402)
 		)
 		(stroke
 			(width 0)
@@ -4803,7 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.432 55.88) (xy 214.122 55.88)
+			(xy 154.178 38.862) (xy 214.122 38.862)
 		)
 		(stroke
 			(width 0)
@@ -4843,7 +5031,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.398 46.482) (xy 136.398 47.244)
+			(xy 42.164 42.418) (xy 42.164 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4920,16 +5108,6 @@
 			(type default)
 		)
 		(uuid "6f3420b9-2eaa-4a81-9a1b-185b6514aa14")
-	)
-	(wire
-		(pts
-			(xy 219.202 28.448) (xy 219.202 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71fc8b90-db8e-4ea5-b58e-ed8a9b5f4e41")
 	)
 	(wire
 		(pts
@@ -5163,6 +5341,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.646 147.574) (xy 165.862 147.574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888c5a76-dffe-4c48-8851-270425a57e75")
+	)
+	(wire
+		(pts
 			(xy 247.142 78.994) (xy 247.142 70.104)
 		)
 		(stroke
@@ -5273,7 +5461,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.502 60.96) (xy 206.502 78.994)
+			(xy 206.502 43.942) (xy 206.502 78.994)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5511,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.858 41.91) (xy 136.144 41.91)
+			(xy 39.624 37.846) (xy 41.91 37.846)
 		)
 		(stroke
 			(width 0)
@@ -5353,6 +5541,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.202 25.908) (xy 219.202 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97f550d-676d-49d2-8aac-ca5041289a2d")
+	)
+	(wire
+		(pts
 			(xy 224.282 76.962) (xy 224.282 78.994)
 		)
 		(stroke
@@ -5373,7 +5571,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.144 32.766) (xy 136.144 34.29)
+			(xy 41.91 28.702) (xy 41.91 30.226)
 		)
 		(stroke
 			(width 0)
@@ -5403,7 +5601,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.858 46.482) (xy 136.398 46.482)
+			(xy 39.624 42.418) (xy 42.164 42.418)
 		)
 		(stroke
 			(width 0)
@@ -5533,7 +5731,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.042 78.994) (xy 209.042 58.42)
+			(xy 209.042 78.994) (xy 209.042 41.402)
 		)
 		(stroke
 			(width 0)
@@ -5763,7 +5961,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.144 40.386) (xy 136.144 41.91)
+			(xy 41.91 36.322) (xy 41.91 37.846)
 		)
 		(stroke
 			(width 0)
@@ -5987,7 +6185,7 @@
 	)
 	(hierarchical_label "ADC_START"
 		(shape input)
-		(at 154.432 58.42 180)
+		(at 154.178 41.402 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5998,7 +6196,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape output)
-		(at 133.858 46.482 180)
+		(at 39.624 42.418 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6009,7 +6207,7 @@
 	)
 	(hierarchical_label "SEL_5V{slash}10V"
 		(shape input)
-		(at 88.392 147.574 180)
+		(at 85.344 164.338 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6031,12 +6229,12 @@
 	)
 	(hierarchical_label "ID"
 		(shape output)
-		(at 219.202 28.448 90)
+		(at 215.646 25.908 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "56ec8b6f-693a-464b-9db9-5917068144cf")
 	)
@@ -6075,7 +6273,7 @@
 	)
 	(hierarchical_label "5.5V"
 		(shape output)
-		(at 133.858 41.91 180)
+		(at 39.624 37.846 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6119,7 +6317,7 @@
 	)
 	(hierarchical_label "ADC_~{DRDY}"
 		(shape output)
-		(at 154.432 55.88 180)
+		(at 154.178 38.862 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6130,7 +6328,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape output)
-		(at 133.858 34.29 180)
+		(at 39.624 30.226 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6141,7 +6339,7 @@
 	)
 	(hierarchical_label "ADC_~{RESET}"
 		(shape input)
-		(at 154.432 60.96 180)
+		(at 154.178 43.942 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6165,8 +6363,8 @@
 		(polyline
 			(pts
 				(xy 303.53 29.972) (xy 157.48 29.972) (xy 157.48 103.378) (xy 94.488 103.378) (xy 94.488 216.662)
-				(xy 134.62 216.662) (xy 134.62 236.728) (xy 134.62 237.49) (xy 134.62 240.792) (xy 137.668 240.792)
-				(xy 303.53 240.792) (xy 303.53 235.966)
+				(xy 134.62 216.662) (xy 134.62 236.728) (xy 134.62 237.49) (xy 134.62 240.792) (xy 134.62 251.968)
+				(xy 303.53 252.222) (xy 303.53 235.966)
 			)
 			(stroke
 				(width 0)
@@ -6643,7 +6841,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 136.144 32.766 0)
+		(at 41.91 28.702 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6651,7 +6849,7 @@
 		(dnp no)
 		(uuid "18a64e22-bea7-4140-921b-38f2f8526d43")
 		(property "Reference" "#PWR077"
-			(at 136.144 36.576 0)
+			(at 41.91 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6858,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 135.382 29.21 0)
+			(at 41.148 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 136.144 32.766 0)
+			(at 41.91 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 136.144 32.766 0)
+			(at 41.91 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 136.144 32.766 0)
+			(at 41.91 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7535,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 136.144 40.386 0)
+		(at 41.91 36.322 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7345,7 +7543,7 @@
 		(dnp no)
 		(uuid "680e388c-c759-4f6b-8f5c-44800dd9cf67")
 		(property "Reference" "#PWR078"
-			(at 136.144 44.196 0)
+			(at 41.91 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +7552,7 @@
 			)
 		)
 		(property "Value" "+5V5"
-			(at 135.382 36.83 0)
+			(at 41.148 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 136.144 40.386 0)
+			(at 41.91 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 136.144 40.386 0)
+			(at 41.91 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 136.144 40.386 0)
+			(at 41.91 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +7862,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 136.398 47.244 0)
+		(at 42.164 43.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7673,7 +7871,7 @@
 		(dnp no)
 		(uuid "87013485-b10c-4e61-a2a4-a26881467f8d")
 		(property "Reference" "#PWR080"
-			(at 136.398 53.594 0)
+			(at 42.164 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.398 52.324 0)
+			(at 42.164 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 136.398 47.244 0)
+			(at 42.164 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 136.398 47.244 0)
+			(at 42.164 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 136.398 47.244 0)
+			(at 42.164 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,205 +9031,7 @@
 		)
 	)
 )
-
-)
-atasheet" ""
-			(at 284.226 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 284.226 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "130833fa-d8c5-4016-94c7-bcfff455533c")
-		)
-		(instances
-			(project "Inoovatest"
-				(path "/e09d161e-639f-4600-8aa9-665b6b461114/ce96d435-3607-40fc-9966-258a09df953a"
-					(reference "#PWR0158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Display_Graphic:EA_eDIPTFT32-ATP")
-		(at 163.068 188.722 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f204eacc-1cb6-4df0-9996-e5cacbed6925")
-		(property "Reference" "U22"
-			(at 147.828 178.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TouchScreen/SPI Touch Controller"
-			(at 158.75 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Display:EA_eDIPTFT32-XXX"
-			(at 163.068 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf"
-			(at 176.022 191.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TFT graphical display with touch panel, 320x240, 16 bit colour, LED backlight, 3.3V - 5V VDD, RS-232, I2C or SPI"
-			(at 97.79 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "65f0a00f-ea10-4ed7-8f00-302007a68a30")
-		)
-		(pin "15"
-			(uuid "057d0110-99c0-4cd8-aafe-5fc69c70c741")
-		)
-		(pin "8"
-			(uuid "bbb2e51f-0ddd-4920-adf2-56a669c23943")
-		)
-		(pin "16"
-			(uuid "513e9ce9-c6ca-497b-96b2-4dc9c0c7fff1")
-		)
-		(pin "4"
-			(uuid "f72aefc7-d7ec-48f7-9e9e-3173abfb8efd")
-		)
-		(pin "14"
-			(uuid "68b4144e-fa2a-46de-bebc-74ce93f79aa6")
-		)
-		(pin "12"
-			(uuid "55ebb652-30ce-4ec1-b0d8-f482e1d9136c")
-		)
-		(pin "6"
-			(uuid "fdeebbcf-e797-4ccd-a503-77128e9d6ae5")
-		)
-		(pin "21"
-			(uuid "97cf7796-f1c3-4123-a61c-6f3324a8bcdf")
-		)
-		(pin "11"
-			(uuid "7d31e6d2-db43-47ca-a129-861d3b48d8ea")
-		)
-		(pin "20"
-			(uuid "0e187c12-250a-47ae-93ed-6a5578472eed")
-		)
-		(pin "9"
-			(uuid "5e1b30ab-2946-4b04-a57c-947bdf29e581")
-		)
-		(pin "10"
-			(uuid "190e1e39-f4d0-4d4a-8180-c6ae53bedbbe")
-		)
-		(pin "2"
-			(uuid "347a3390-4dd4-46aa-8a88-721fcf42c35a")
-		)
-		(pin "1"
-			(uuid "12a82025-64df-40a8-813a-0ffcaf354f78")
-		)
-		(pin "4"
-			(uuid "43a7be76-8476-4bda-9f26-2039467100b2")
-		)
-		(pin "19"
-			(uuid "8b71eee0-b663-4f61-8cb7-577457d73dd8")
-		)
-		(pin "18"
-			(uuid "7dc99bc7-222f-4760-9cc0-d9c4f9e63fc3")
-		)
-		(pin "19"
-			(uuid "14f6d230-f5f9-4fc3-8acf-e8f7fbcf3d72")
-		)
-		(pin "3"
-			(uuid "da136a37-6e56-46a5-bb0d-ab59ebf7ca73")
-		)
-		(pin "3"
-			(uuid "581e3f9c-f014-4fa8-8186-6303b0b1fc15")
-		)
-		(pin "17"
-			(uuid "28bf2c56-5731-4b70-bc22-68cec53a8326")
-		)
-		(pin "13"
-			(uuid "b047ce45-6a8a-4224-b66c-18c73bfc6d8d")
-		)
-		(pin "22"
-			(uuid "2e9fcb14-d618-4788-9846-d40d0fbed8eb")
-		)
-		(instances
-			(project "Inoovatest"
-				(path "/e09d161e-639f-4600-8aa9-665b6b461114/ce96d435-3607-40fc-9966-258a09df953a"
-					(reference "U22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 288.29 85.598 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9d65726-1a8d-49c3-a0f8-26ec277213ac")
-		(property "Reference" "#PWR0166"
-			(at 288.29 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 288.29 82.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 288.29 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+1.27)
 				)
 				(hide yes)
 			)
