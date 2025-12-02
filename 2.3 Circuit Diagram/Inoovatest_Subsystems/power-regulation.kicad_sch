@@ -7845,7 +7845,7 @@
 				)
 			)
 		)
-		(property "Value" "MOC8102"
+		(property "Value" "PS9117A"
 			(at 205.994 45.974 0)
 			(effects
 				(font
