@@ -1,0 +1,242 @@
+(footprint "Kool_PushButton_Modified"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SW1"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa1d4367-c793-435a-9dda-a1e6c06187fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Emergency Stop"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0bb9cb6-467c-4474-ae00-647ca76d3cad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08039c86-e8f2-4ab7-9b79-9764e20195a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c110f059-e13b-4f78-b577-07c859b1dfad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 8.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0380f521-5010-4c44-bb09-f03cc29ef88b")
+	)
+	(fp_line
+		(start -2.44 -4.97)
+		(end 3.06 -4.97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a3f0c70e-2603-4140-a00a-1333eb4e70c4")
+	)
+	(fp_line
+		(start -2.44 0)
+		(end -6.15 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "66992a21-cd04-4751-a49e-eef572eaf935")
+	)
+	(fp_line
+		(start -2.44 0)
+		(end -2.44 -4.97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "366f0cf0-3d42-484f-8d5e-dcb04c6daf41")
+	)
+	(fp_line
+		(start -2.44 0)
+		(end -2.44 4.97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4a86d60b-2739-4cd6-9afb-c23cc28a073a")
+	)
+	(fp_line
+		(start -2.44 4.97)
+		(end 3.06 4.97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0c0f8e42-58b0-40da-a870-9a5c221e44f3")
+	)
+	(fp_line
+		(start 0 0)
+		(end -2.44 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e30afe25-9ca0-421d-83e5-fee0d71b72a4")
+	)
+	(fp_line
+		(start 0 0)
+		(end 6.17 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7f047129-9697-412c-b470-aa9c256c4e6c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cbe710c0-1c07-4044-bacc-82dc02c7f621")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5d2e5858-7464-4823-bc27-9f2082c6f367")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.35 3.5 180)
+		(layer "F.Fab")
+		(uuid "30cace26-a82f-421e-ba7d-db6cbec32cb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -6.15 0)
+		(size 1.4 4.1)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5f5ef56-919d-4a09-90a6-cc1ab4874c69")
+	)
+	(pad "2" thru_hole oval
+		(at -2.44 -4.97)
+		(size 1.4 4.1)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d1686dd-6ebb-4147-9b6c-0512732f9679")
+	)
+	(pad "3" thru_hole oval
+		(at -2.44 0)
+		(size 1.4 4.1)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31fbad28-5d9c-4db4-a36c-47c7cf6c09a4")
+	)
+	(pad "4" thru_hole oval
+		(at -2.44 4.97)
+		(size 1.4 4.1)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c379e0a1-0b6d-45bc-a833-4110e3125fce")
+	)
+	(pad "5" thru_hole oval
+		(at 3.06 -4.97)
+		(size 1.4 4.1)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe1feaab-d573-4139-be4f-d56a65d2d1fa")
+	)
+	(pad "6" thru_hole oval
+		(at 3.06 4.97)
+		(size 1.4 4)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0547bdcd-8e56-41c8-8b18-0485082caef3")
+	)
+	(pad "7" thru_hole oval
+		(at 6.17 0)
+		(size 1.4 4.1)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67f86fa1-ff21-4e43-9b34-eec64432e340")
+	)
+	(embedded_fonts no)
+	(model "G:/My Drive/HSRW/Semester 5/Group Project/Group-Project_WS2526/2.1 3D Model/Miscellaneous Electronics/P19-TF-POWER-RGB.stp"
+		(hide yes)
+		(offset
+			(xyz 0 0 28)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

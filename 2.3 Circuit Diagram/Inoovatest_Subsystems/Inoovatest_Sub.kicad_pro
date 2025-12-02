@@ -530,7 +530,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "Inoovatest_Sub.dsn",
-      "step": "Inoovatest_Sub_Footprings.step",
+      "step": "Inoovatest_PCB.step",
       "svg": "",
       "vrml": ""
     },
