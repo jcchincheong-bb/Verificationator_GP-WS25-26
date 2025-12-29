@@ -1,0 +1,116 @@
+---
+config:
+  layout: fixed
+  theme: base
+  look: neo
+---
+flowchart TB
+ subgraph L11["L1.1 - A1"]
+        L11_1["Place solder paste using stencil"]
+        L11_2["Pick & place components"]
+        L11_3["Solder via reflow oven"]
+  end
+ subgraph L12["L1.2 - A3"]
+        L12_1["Screw PCB into mount"]
+  end
+ subgraph L13["L1.3 - A2"]
+        L13_1["Strap Velcro onto cradle"]
+  end
+ subgraph L14["L1.4 - A6"]
+        L14_1["Screw battery cradle into basin"]
+  end
+ subgraph L15["L1.5 - Modify M12 Port"]
+        L15_1["Modify M12 port"]
+  end
+ subgraph L16["L1.6 - A8"]
+        L16_2["Insert M12 port into basin"]
+  end
+ subgraph L17["L1.7 - A7"]
+        L17_1["Tape PCB mount onto wall"]
+  end
+ subgraph L18["L1.8 - A9 & A10"]
+        L18_1["Insert battery"]
+        L18_2["Place gasket"]
+        L18_3["Screw frame onto basin"]
+  end
+ subgraph L1["L1 - Basin Assembly"]
+        L11
+        L12
+        L13
+        L14
+        L15
+        L16
+        L17
+        L18
+  end
+ subgraph L21["L2.1 - Top Panel Welding"]
+        L21_1["Weld cable tray onto top panel"]
+  end
+ subgraph L22["L2.2 - Buttons & Ports Insertion"]
+        L22_1["Screw buttons, LEDs, USB A"]
+  end
+ subgraph L2["L2 - Top Panel Assembly"]
+        L21
+        L22
+  end
+ subgraph L31["L3.1 - A11"]
+        L31_1["Weld top panel and basin"]
+  end
+ subgraph L32["L3.2 - A12"]
+        L32_1["Insert screen and apply foam tape"]
+  end
+ subgraph L3["L3 - Electronics Interior Assembly"]
+        L31
+        L32
+  end
+ subgraph L4["L4 - Panel Frame Assembly"]
+        L4_1["Insert rivets into panel frame"]
+  end
+ subgraph L51["L5.1 - Modify Pelican Case"]
+        L51_1["Drill and ream holes for USB-C and M12"]
+  end
+ subgraph L52["L5.2 - A13"]
+        L52_1["Insert USB-C port"]
+  end
+ subgraph L53["L5.3 - A15 & A16"]
+        L53_1["Insert foam"]
+        L53_2["Screw in panel frame"]
+  end
+ subgraph L54["L5.4 - A17"]
+        L54_1["Screw electronics with O-ring"]
+  end
+ subgraph L5["L5 - Pelican Case Assembly"]
+        L51
+        L52
+        L53
+        L54
+  end
+ subgraph L6["L6 - Load Cell Assembly"]
+        L6_1["Solder wires together"]
+  end
+ subgraph L7["L7 - Final Assembly"]
+        L7_1["Place load cells & cables, close box"]
+  end
+    L11_1 --> L11_2
+    L11_2 --> L11_3
+    L11 --> L12
+    L12 --> L17
+    L13 --> L14
+    L14 --> L17
+    L15 --> L16
+    L16 --> L17
+    L17 --> L18
+    L18_1 --> L18_2
+    L18_2 --> L18_3
+    L21 --> L22
+    L31 --> L32
+    L51 --> L52
+    L52 --> L53
+    L53_1 --> L53_2
+    L53 --> L54
+    L1 --> L3
+    L2 --> L3
+    L3 --> L5
+    L4 --> L5
+    L5 --> L7
+    L6 --> L7
