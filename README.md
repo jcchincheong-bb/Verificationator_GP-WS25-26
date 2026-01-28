@@ -17,8 +17,8 @@ After a Make or Buy analysis was performed, the pelican case and electrical comp
 Finally, the costs of all the materials, labour, manufacturing, and overheads were considered to calculate a production cost of €3990.15. Accounting for business overheads, profit, and commission, the final offer price was found to be €7018.28.
 
 ### Development Team
-[Abhinav Kothari](https://www.linkedin.com/in/abhinav-kothari-2ak/) - Manufacturing and Production Planning, Video Editing
-Ahmad Zeaiter - Mechanical Design, Technical Drawing, Brochure Design
-[Justin Julius Chin Cheong](https://jcchincheong-bb.github.io/) - Project Managment, Market Analysis, Cost Estimation, System Architecture and Signal Conditioning Design
-Wasim Ahmed Mohammed Al Asbahi - Main Electrical Design, Programming Flowchart
+- [Abhinav Kothari](https://www.linkedin.com/in/abhinav-kothari-2ak/) - Manufacturing and Production Planning, Video Editing
+- Ahmad Zeaiter - Mechanical Design, Technical Drawing, Brochure Design
+- [Justin Julius Chin Cheong](https://jcchincheong-bb.github.io/) - Project Managment, Market Analysis, Cost Estimation, System Architecture and Signal Conditioning Design
+- Wasim Ahmed Mohammed Al Asbahi - Main Electrical Design, Programming Flowchart
 
